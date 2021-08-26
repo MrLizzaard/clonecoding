@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./dbcut.module.css";
 import { useHistory } from "react-router-dom";
 import Header from "../header/header";
 
@@ -10,7 +11,7 @@ const Dbcut = () => {
   };
 
   return (
-    <div>
+    <div className={styles.dbcut}>
       <h1>DBCUT</h1>
       <Header />
       <button type="button" onClick={handleClick}>
