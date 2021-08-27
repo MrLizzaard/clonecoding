@@ -1,11 +1,9 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/navbar";
 import styles from "./header.module.css";
 
 const Header = (props) => {
-  const history = useHistory();
-
   return (
     <div className={styles.header}>
       <Link to="/" className={styles.logo}>
