@@ -11,7 +11,9 @@ const Navbar = (props) => {
             <Link to="/dbcut">디렉토리</Link>
           </li>
           <li className={styles.renew}>
-            <Link to="/dbcut">오픈/리뉴얼</Link>
+            <Link to="/dbcut" className="now">
+              오픈/리뉴얼
+            </Link>
           </li>
           <li className={styles.foreign}>
             <Link to="/dbcut">외국사이트</Link>
