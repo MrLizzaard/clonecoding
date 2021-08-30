@@ -7,38 +7,38 @@ const Navbar = (props) => {
     <nav className={styles.navbar}>
       <div className={styles.mainmenu}>
         <ul>
-          <li>
+          <li className={styles.directory}>
             <Link to="/dbcut">디렉토리</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.renew}>
+            <Link to="/dbcut">오픈/리뉴얼</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.foreign}>
+            <Link to="/dbcut">외국사이트</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.agency}>
+            <Link to="/dbcut">웹에이전시</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.mobile}>
+            <Link to="/dbcut">모바일</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.responsive}>
+            <Link to="/dbcut">반응형</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.wordpress}>
+            <Link to="/dbcut">워드프레스</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.job}>
+            <Link to="/dbcut">구인구직</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.offer}>
+            <Link to="/dbcut">제작의뢰</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.community}>
+            <Link to="/dbcut">커뮤니티</Link>
           </li>
-          <li>
-            <Link to="/dbcut"></Link>
+          <li className={styles.blog}>
+            <Link to="/dbcut">팀블로그</Link>
           </li>
         </ul>
       </div>
