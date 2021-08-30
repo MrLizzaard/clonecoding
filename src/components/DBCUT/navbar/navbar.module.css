@@ -1,0 +1,7 @@
+.navbar {
+  clear: both;
+  width: 1000px;
+  height: 70px;
+  overflow: hidden;
+  border-bottom: 1px solid #bebebe;
+}

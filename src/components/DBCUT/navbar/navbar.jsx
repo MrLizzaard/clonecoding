@@ -5,41 +5,43 @@ import styles from "./navbar.module.css";
 const Navbar = (props) => {
   return (
     <nav className={styles.navbar}>
-      <ul className={styles.mainmenu}>
-        <li className={styles.item}>
-          <Link to="/dbcut">디렉토리</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">오픈/리뉴얼</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">외국사이트</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">웹에이전시</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">모바일</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">반응형</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">워드프레스</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">구인구직</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">제작의뢰</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">커뮤니티</Link>
-        </li>
-        <li className={styles.item}>
-          <Link to="/dbcut">팀블로그</Link>
-        </li>
-      </ul>
+      <div className={styles.mainmenu}>
+        <ul>
+          <li>
+            <Link to="/dbcut">디렉토리</Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+          <li>
+            <Link to="/dbcut"></Link>
+          </li>
+        </ul>
+      </div>
       <div className="topNotice">공지사항 : 보안인증서 연장을 깜박해 https 연결에 문제가 있었습니다.(1)</div>
       <div className="topSearch">
         <form>

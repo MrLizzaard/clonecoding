@@ -12,7 +12,6 @@ const Dbcut = () => {
 
   return (
     <div className={styles.dbcut}>
-      <h1>DBCUT</h1>
       <Header />
       <button type="button" onClick={handleClick}>
         Home
