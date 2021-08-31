@@ -5,13 +5,13 @@ const MainPage = (props) => {
   const history = useHistory();
 
   const handleClick = () => {
-    history.push("/dbcut");
+    history.push("/sam");
   };
   return (
     <div>
       <h1>MainPage</h1>
       <button type="button" onClick={handleClick}>
-        dbcut
+        sam
       </button>
     </div>
   );

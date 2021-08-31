@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styles from "./app.module.css";
-import Dbcut from "./components/DBCUT/DBCUT/dbcut";
 import MainPage from "./components/Home/mainpage/mainpage";
+import SamMain from "./components/samyang/sam_main/sam_main";
 
 const App = (props) => {
   return (
@@ -12,8 +12,8 @@ const App = (props) => {
           <Route exact path="/">
             <MainPage />
           </Route>
-          <Route exact path="/dbcut">
-            <Dbcut />
+          <Route exact path="/sam">
+            <SamMain />
           </Route>
         </Switch>
       </BrowserRouter>
