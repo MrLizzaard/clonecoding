@@ -55,8 +55,51 @@ const SamHeader = (props) => {
         </div>
         {/* 검색 드롭다운 */}
         <div className={styles.searchDetail}>
-          <div className={styles.popular}></div>
-          <div className={styles.recent}></div>
+          <div className={styles.popular}>
+            <div className={styles.popularTitle}>인기검색어</div>
+            <ul>
+              <li>
+                <Link to="#">#불닭</Link>
+              </li>
+              <li>
+                <Link to="#">#불타는 시리즈</Link>
+              </li>
+              <li>
+                <Link to="#">#로제</Link>
+              </li>
+              <li>
+                <Link to="#">#삼양60주년</Link>
+              </li>
+              <li>
+                <Link to="#">#추석선물</Link>
+              </li>
+              <li>
+                <Link to="#">#킨조</Link>
+              </li>
+              <li>
+                <Link to="#">#삼양라면</Link>
+              </li>
+              <li>
+                <Link to="#">#비건</Link>
+              </li>
+              <li>
+                <Link to="#">#뽀빠이</Link>
+              </li>
+              <li>
+                <Link to="#">#치즈</Link>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.recent}>
+            <div className={styles.popularTitle}>
+              최근검색어
+              <span>
+                모두 지우기
+                <img src="https://www.sydeliciousshop.com/morenvyimg/recent_all.png" alt="x" />
+              </span>
+            </div>
+            <ul></ul>
+          </div>
           <div className={styles.close}></div>
         </div>
       </div>
