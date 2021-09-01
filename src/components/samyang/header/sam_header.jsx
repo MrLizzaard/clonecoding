@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import styles from "./sam_header.module.css";
 
 const SamHeader = (props) => {
+  const inputRef = useRef();
+  const handleMouseDown = () => {
+    inputRef.current.placeholder = "";
+  };
+  const handleBlur = () => {
+    inputRef.current.placeholder = "검색어를 입력하세요";
+  };
+
   return (
     <div className={styles.header}>
       <div className={styles.sec1}>
@@ -30,7 +38,15 @@ const SamHeader = (props) => {
             <form className={styles.searchBarForm}>
               <div className={styles.searchInput}>
                 <fieldset title="검색어를 입력하세요">
-                  <input className={styles.keyword} placeholder="검색어를 입력하세요" type="text" />
+                  <input
+                    ref={inputRef}
+                    className={styles.keyword}
+                    placeholder="검색어를 입력하세요"
+                    autoComplete="off"
+                    type="text"
+                    onMouseDown={handleMouseDown}
+                    onBlur={handleBlur}
+                  />
                   <input type="image" alt="검색" src="https://www.sydeliciousshop.com/morenvyimg/mh_search.png" />
                 </fieldset>
               </div>
