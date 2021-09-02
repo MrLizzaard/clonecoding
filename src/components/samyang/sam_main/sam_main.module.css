@@ -1,0 +1,100 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font: 0.75em Verdana, Dotum, AppleGothic, sans-serif;
+  color: #353535;
+  background: #fff;
+  padding: 0;
+  display: block;
+  min-width: 100%;
+  margin-right: 0;
+  line-height: 1;
+}
+
+div {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+fieldset {
+  border: none;
+  vertical-align: top;
+}
+
+form {
+  display: block;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  display: inline-block;
+  appearance: auto;
+  background-color: rgb(255, 255, 255), rgb(59, 59, 59);
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  font: 400 13.3333px Arial;
+}
+
+input,
+select,
+textarea {
+  font-size: 100%;
+  color: #353535;
+  vertical-align: middle;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  min-width: 1280px;
+  min-height: 550px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.topBanner {
+  position: relative;
+  background-color: #ff661b;
+  height: 60px;
+  text-align: center;
+}
+
+.a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 60px;
+}
+
+.a span {
+  font-weight: 700;
+}
