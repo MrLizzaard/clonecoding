@@ -110,8 +110,7 @@
 }
 
 .searchDetail {
-  /* display: none */
-  display: block;
+  display: none;
   z-index: 101;
   position: absolute;
   top: 0;
@@ -127,11 +126,11 @@
 }
 
 .searchDetail > div {
-  width: 550px;
   height: auto;
 }
 
 .popular {
+  width: 550px;
   margin: 151px auto 80px;
 }
 
@@ -164,6 +163,7 @@
 }
 
 .recent {
+  width: 550px;
   margin: 0 auto 80px;
 }
 
@@ -183,4 +183,49 @@
 
 .recent ul {
   margin-top: 10px;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.close img {
+  padding: 14.5px;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: all 0.4s linear;
+}
+
+.user {
+  float: right;
+  margin-top: 40px;
+}
+
+.user li {
+  float: left;
+  margin-left: 36px;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart span {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  text-align: center;
 }

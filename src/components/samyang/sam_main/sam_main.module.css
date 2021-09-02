@@ -76,7 +76,7 @@ a:-webkit-any-link {
   position: relative;
   width: 100%;
   min-width: 1280px;
-  min-height: 550px;
+  min-height: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }

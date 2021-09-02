@@ -100,8 +100,28 @@ const SamHeader = (props) => {
             </div>
             <ul></ul>
           </div>
-          <div className={styles.close}></div>
+          <div className={styles.close}>
+            <img src="https://www.sydeliciousshop.com/morenvyimg/sd_close.png" alt="close button" />
+          </div>
         </div>
+        <ul className={styles.user}>
+          <li>
+            <Link to="#">
+              <img src="https://www.sydeliciousshop.com/morenvyimg/mh_order.png" alt="truck" />
+            </Link>
+          </li>
+          <li>
+            <Link to="#">
+              <img src="https://www.sydeliciousshop.com/morenvyimg/mh_mypage.png" alt="truck" />
+            </Link>
+          </li>
+          <li className={styles.cart}>
+            <Link to="#">
+              <img src="https://www.sydeliciousshop.com/morenvyimg/mh_cart.png" alt="truck" />
+              <span>0</span>
+            </Link>
+          </li>
+        </ul>
       </div>
       <div className={styles.sec2}></div>
     </div>
