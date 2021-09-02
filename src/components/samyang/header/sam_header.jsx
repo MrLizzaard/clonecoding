@@ -123,7 +123,75 @@ const SamHeader = (props) => {
           </li>
         </ul>
       </div>
-      <div className={styles.sec2}></div>
+      <div className={styles.sec2}>
+        <div className={styles.mainCategory}>
+          <ul className={styles.categoryList}>
+            <li>
+              <Link to="#">
+                <img src="https://www.sydeliciousshop.com/morenvyimg/mh_fold.png" alt="hamburger" className={styles.fold} />
+                삼양식품
+              </Link>
+            </li>
+            <li>
+              <Link to="#">맛샵PICK</Link>
+            </li>
+            <li>
+              <Link to="#">굿즈샵</Link>
+            </li>
+            <li>
+              <Link to="#">명절선물세트</Link>
+            </li>
+            <li>
+              <Link to="#">이벤트</Link>
+            </li>
+            <li>
+              <Link to="#">삼양플레이</Link>
+            </li>
+          </ul>
+          <div className={styles.cateArea}>
+            <div className={styles.allCate}>
+              <ul className={styles.moreAllCategory}>
+                <li>
+                  <Link>삼양식품</Link>
+                  <div>
+                    <ul></ul>
+                  </div>
+                </li>
+                <li>
+                  <Link>맛샵PICK</Link>
+                  <div>
+                    <ul></ul>
+                  </div>
+                </li>
+                <li>
+                  <Link>굿즈샵</Link>
+                  <div>
+                    <ul></ul>
+                  </div>
+                </li>
+                <li>
+                  <Link>명절선물세트</Link>
+                  <div>
+                    <ul></ul>
+                  </div>
+                </li>
+                <li>
+                  <Link>이벤트</Link>
+                  <div>
+                    <ul></ul>
+                  </div>
+                </li>
+                <li>
+                  <Link>삼양플레이</Link>
+                  <div>
+                    <ul></ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
