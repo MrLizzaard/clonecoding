@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SamHeader from "../header/sam_header";
+import SamCarousel from "../sam_carousel/sam_carousel";
 import styles from "./sam_main.module.css";
 
 const SamMain = (props) => {
@@ -12,6 +13,7 @@ const SamMain = (props) => {
         </Link>
       </div>
       <SamHeader />
+      <SamCarousel />
     </div>
   );
 };
