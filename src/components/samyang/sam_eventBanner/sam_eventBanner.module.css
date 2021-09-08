@@ -1,0 +1,16 @@
+.eventBanner {
+  width: 100%;
+  margin: 120px 0;
+  height: 200px;
+}
+
+.eventBanner a {
+  display: block;
+  height: 200px;
+}
+
+.event1 {
+  background: url(https://www.sydeliciousshop.com/morenvyimg/line_bn.jpg) no-repeat #fff4d8;
+  height: 100%;
+  background-position: center !important;
+}
