@@ -73,9 +73,113 @@
 }
 
 .description .name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  letter-spacing: -0.025em;
+  font-size: 18px;
+  color: #101010;
+  font-weight: normal;
   text-align: center;
   width: 80%;
   height: auto;
   max-height: 50px;
   margin: 0 auto 15px;
+}
+
+.description .name span {
+  font-size: 17px;
+  color: #101010;
+}
+
+.saleBox {
+  display: inline-block;
+}
+
+.sale_bg {
+  display: block;
+}
+
+.sale_bg span {
+  font-size: 23px;
+  font-weight: 700;
+  color: #ff661b;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.spec {
+  display: inline-block;
+}
+
+.salesPrice {
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #3a3a3a;
+  font-weight: bold;
+}
+
+.customerPrice {
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 17px;
+  color: #989898;
+  text-decoration: line-through;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.icon img {
+  vertical-align: middle;
+}
+
+.mainTitle {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.title1 {
+  color: #ff661b;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.title2 {
+  color: #010101;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+.title2 span {
+  display: block;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #010101;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.025em;
 }
