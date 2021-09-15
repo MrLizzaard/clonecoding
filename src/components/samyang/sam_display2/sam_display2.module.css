@@ -88,3 +88,52 @@
   bottom: 20px;
   cursor: pointer;
 }
+
+.icon img {
+  vertical-align: middle;
+}
+
+.description {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  letter-spacing: 0.025em;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.summary {
+  margin-bottom: 15px;
+}
+
+.summary a {
+  font-size: 18px;
+}
+
+.sales {
+  display: inline-block;
+}
+
+.salesBg {
+  display: block;
+}
+
+.saleText {
+  font-size: 23px;
+  font-weight: 700;
+  color: #ff661b;
+  margin-right: 5px;
+}
+
+.price {
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.price span {
+  font-size: 20px;
+  color: #3a3a3a;
+  font-weight: bold;
+}
