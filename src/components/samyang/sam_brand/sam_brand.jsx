@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./sam_brand.module.css";
 
 const SamBrand = (props) => (
@@ -27,23 +28,23 @@ const SamBrand = (props) => (
         </li>
         <li className={styles.slide}>
           <div>1970</div>
-          <img src="https://www.sydeliciousshop.com/morenvyimg/brand07.png" alt="1970" />
+          <img src="https://www.sydeliciousshop.com/morenvyimg/brand02.png" alt="1970" />
         </li>
         <li className={styles.slide}>
           <div>1972</div>
-          <img src="https://www.sydeliciousshop.com/morenvyimg/brand07.png" alt="1972" />
+          <img src="https://www.sydeliciousshop.com/morenvyimg/brand03.png" alt="1972" />
         </li>
         <li className={styles.slide}>
           <div>1973</div>
-          <img src="https://www.sydeliciousshop.com/morenvyimg/brand07.png" alt="1973" />
+          <img src="https://www.sydeliciousshop.com/morenvyimg/brand04.png" alt="1973" />
         </li>
         <li className={styles.slide}>
           <div>2012</div>
-          <img src="https://www.sydeliciousshop.com/morenvyimg/brand07.png" alt="2012" />
+          <img src="https://www.sydeliciousshop.com/morenvyimg/brand05.png" alt="2012" />
         </li>
         <li className={styles.slide}>
           <div>2020</div>
-          <img src="https://www.sydeliciousshop.com/morenvyimg/brand07.png" alt="2020" />
+          <img src="https://www.sydeliciousshop.com/morenvyimg/brand06.png" alt="2020" />
         </li>
         <li className={styles.slide}>
           <div>2021</div>
@@ -51,7 +52,11 @@ const SamBrand = (props) => (
         </li>
       </ul>
     </div>
-    <div className={styles.more}></div>
+    <div className={styles.more}>
+      <Link>
+        <strong>브랜드스토리</strong> 더보기 +
+      </Link>
+    </div>
   </div>
 );
 
