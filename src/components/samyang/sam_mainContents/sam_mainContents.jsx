@@ -7,6 +7,7 @@ import SamDisplay2 from "../sam_display2/sam_display2";
 import SamPreference from "../sam_preference/sam_preference";
 import SamDiary from "../sam_diary/sam_diary";
 import SamBrand from "../sam_brand/sam_brand";
+import SamRecipe from "../sam_recipe/sam_recipe";
 
 const SamMainContents = (props) => (
   <div className={styles.mainContents}>
@@ -17,6 +18,7 @@ const SamMainContents = (props) => (
     <SamPreference />
     <SamDiary />
     <SamBrand />
+    <SamRecipe />
   </div>
 );
 

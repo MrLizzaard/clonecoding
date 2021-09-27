@@ -1,0 +1,130 @@
+.recipe {
+  background: url(https://www.sydeliciousshop.com/morenvyimg/bg_recipe.png) 0 100% no-repeat;
+  background-size: 100% auto;
+}
+
+.main_title {
+  margin: 118px 0 49px;
+  text-align: center;
+  position: relative;
+}
+
+.title1 {
+  color: #ff661b;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.title2 {
+  color: #010101;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+.prdList ul {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.prdList ul li {
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 40px;
+  width: 400px;
+  height: 510px;
+  border-radius: 20px;
+  box-shadow: 14px 14px 18px 0px rgb(0 0 0 / 5%);
+}
+
+.prdList ul li:first-child {
+  margin-left: 0;
+}
+
+.thumbnail {
+  height: 370px;
+}
+
+.thumbnail a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+}
+
+.info {
+  height: 140px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  color: #1f1f1f;
+  letter-spacing: -0.05em;
+}
+
+.level {
+  order: 1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.075em;
+  color: #ff661b;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.level img {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0;
+  margin-left: 5px;
+  vertical-align: unset;
+  border: 0;
+}
+
+.hash {
+  display: block;
+  order: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05;
+  color: #989898;
+}
+
+.txt {
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: -0.025em;
+}
+
+.more {
+  margin-top: 35px;
+  padding-bottom: 168px;
+  text-align: center;
+}
+
+.more a {
+  font-size: 27px;
+  color: #989898;
+}
+
+.more a strong {
+  color: #ff661b;
+}

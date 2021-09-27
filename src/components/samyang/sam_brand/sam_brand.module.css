@@ -116,6 +116,15 @@
   text-align: center;
 }
 
+.more a {
+  font-size: 27px;
+  color: #989898;
+}
+
+.more a strong {
+  color: #ff661b;
+}
+
 @keyframes hochi {
   0% {
     transform: translateY(0px) rotate();
