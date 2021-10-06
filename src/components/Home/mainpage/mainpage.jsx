@@ -4,13 +4,13 @@ import { useHistory } from "react-router-dom";
 const MainPage = (props) => {
   const history = useHistory();
 
-  const handleClick = () => {
+  const samhandleClick = () => {
     history.push("/sam");
   };
   return (
     <div>
       <h1>MainPage</h1>
-      <button type="button" onClick={handleClick}>
+      <button type="button" onClick={samhandleClick}>
         sam
       </button>
     </div>
