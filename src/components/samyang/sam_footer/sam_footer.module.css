@@ -102,4 +102,32 @@
   color: #989898;
   font-size: 16px;
   line-height: 27px;
+  clear: both;
+}
+
+.infoLeft {
+  float: left;
+}
+
+.infoRight {
+  float: right;
+  text-align: right;
+}
+
+.info a {
+  color: #989898;
+}
+
+.infoRight ul {
+  margin-bottom: 45px;
+  line-height: 0;
+}
+
+.infoRight ul li {
+  display: inline-block;
+}
+
+.infoRight ul li img {
+  width: 42px;
+  height: 42px;
 }
