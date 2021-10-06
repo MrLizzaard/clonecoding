@@ -43,12 +43,12 @@ const SamFooter = (props) => (
       </ul>
       <div className={styles.cs}>
         <ul>
-          <li>삼양맛샵 고객센터 (주문/배송)</li>
+          <li className={styles.footerTitle}>삼양맛샵 고객센터 (주문/배송)</li>
           <li>080.850.3072</li>
           <li>AM 9:30~ PM 17:40 (Lunch Time PM 12:00~13:00 / 토, 일, 공휴일 휴무</li>
         </ul>
         <ul>
-          <li>삼양식품 고객지원센터 (제품/품질)</li>
+          <li className={styles.footerTitle}>삼양식품 고객지원센터 (제품/품질)</li>
           <li>080.850.3333</li>
           <li>AM 9:30~ PM 17:30 (Lunch Time PM 12:00~13:00 / 토, 일, 공휴일 휴무</li>
         </ul>
@@ -62,8 +62,28 @@ const SamFooter = (props) => (
         </ul>
       </div>
       <div className={styles.info}>
-        <div className={styles.infoLeft}></div>
-        <div className={styles.infoRight}></div>
+        <div className={styles.infoLeft}>
+          삼양식품(주) <span></span>대표자: 정태운, 진종기 <span></span>개인정보책임자 : 삼양식품(주) <br />
+          주소: 02737 서울특별시 성북구 오패산로3길 104 (하월곡동) 삼양식품 <span></span>Tel. 080-850-3072 <span></span>
+          <br />
+          이메일 : abcde@samyangfoods.com <br />
+          반품교환주소 : 경기 하남 서하남로123길 12-34 성윤로지스 <br /> 사업자등록번호 123-45-67890
+          <span></span>[사업자정보확인] <span></span> 통신판매업신고번호 [2016-가나다-0000] <br />
+        </div>
+        <div className={styles.infoRight}>
+          <ul>
+            <li>
+              <img src="https://www.sydeliciousshop.com/morenvyimg/ucert_black.gif" alt="" />
+            </li>
+            <li>
+              <img src="https://www.sydeliciousshop.com/morenvyimg/inipay.png" alt="" />
+            </li>
+            <li>
+              <img src="https://www.sydeliciousshop.com/morenvyimg/escrow.png" alt="" />
+            </li>
+          </ul>
+          <div className={styles.copy}>COPYRIGHT © 삼양맛샵 ALL RIGHTS RESERVED.</div>
+        </div>
       </div>
     </div>
   </div>
