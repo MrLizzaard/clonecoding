@@ -53,15 +53,15 @@ nav {
 .navbar .menu {
   display: flex;
   justify-content: space-between;
-  width: 600px;
   margin-right: 150px;
 }
 
 .navbar .menu .item {
+  width: 130px;
   font-weight: 200;
   font-size: 16px;
   color: black;
-  padding: 17px;
+  padding: 10px;
   cursor: pointer;
 }
 
@@ -70,22 +70,34 @@ nav {
   width: 100%;
 }
 
-.menu-collapsed {
+.subMenuContainer {
   position: relative;
+  margin: 0 auto;
+  display: flex;
+  width: 1092px;
+  justify-content: space-between;
+}
+
+.tempBox {
+  display: block;
+  width: 184px;
+}
+
+.menu-collapsed {
   display: flex;
   justify-content: space-between;
-  width: 600px;
-  margin: 0 auto;
-  right: 0;
+  margin-right: 150px;
+  margin-top: 20px;
 }
 
 .subMenu__item {
-  padding-top: 6px;
-  padding: 17px;
-  font-size: 14px;
+  width: 130px;
   font-weight: 300;
-  line-height: 1.2;
+  font-size: 14px;
   color: white;
+  padding: 10px;
+  line-height: 1.2;
+  cursor: pointer;
 }
 
 /* main */
