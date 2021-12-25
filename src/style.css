@@ -165,15 +165,72 @@ nav .navbarSubShadow {
   height: 100vh;
   top: 0;
   right: -233px;
+  display: flex;
+  flex-direction: column;
 }
 
-.sidemenu .sidemenu__item a {
+.sidemenu .sidemenu__item > a {
+  display: block;
+  width: 100%;
+  height: 60px;
   color: white;
   font-weight: 200;
   font-size: 16px;
-  padding-left: 17px;
+  padding: 17px;
   margin-right: 25px;
   white-space: nowrap;
+  border-bottom: 1px solid #434043;
+}
+
+.sidemenu__item {
+  position: relative;
+}
+
+.sidemenu__item__plus {
+  position: absolute;
+  color: white;
+  display: block;
+  top: 15px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.sidemenu__submenu {
+  display: none;
+  background-color: #444144;
+  padding-bottom: 10px;
+}
+
+.sidemenu__submenu__item a {
+  display: block;
+  color: white;
+  white-space: nowrap;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 17px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.sidemenu__on > a {
+  color: #ce65e1 !important;
+}
+
+.sidemenu__on .sidemenu__item__plus {
+  color: #ce65e1;
+}
+
+.sidemenu__on .sidemenu__submenu {
+  display: block;
+}
+
+.sidemenu__submenu__item a:hover {
+  color: #ce65e1;
+}
+
+.sidemenu__item__plus::before {
+  content: "\002b";
 }
 
 /* main */
