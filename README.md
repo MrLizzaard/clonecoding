@@ -1,5 +1,5 @@
-# Cloning many Websites
+# Cloning Websites
 
-## 1.DBCUT
+## cellsquare
 
 레이아웃이 단순한 기업의 PR사이트
