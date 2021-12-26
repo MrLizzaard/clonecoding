@@ -271,6 +271,13 @@ nav .navbarSubShadow {
   margin: 0 auto;
 }
 
+.serviceGridContainer::after,
+.serviceGridContainer::before {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
 .serviceGrid {
   margin-bottom: 30px;
 }
@@ -302,6 +309,89 @@ nav .navbarSubShadow {
 }
 
 /* sns section */
+
+.snsSectionContainer {
+  background-color: #eee;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.snsSectionContainer .snsSection {
+  width: 1092px;
+  margin: 0 auto;
+}
+
+.snsSectionContainer .sectionTitle {
+  color: #414042;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.snsSectionContainer .facebookList {
+  margin: 0 -10px;
+}
+
+.snsSectionContainer .facebookList::before,
+.snsSectionContainer .facebookList::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+.snsSectionContainer .facebookList__item {
+  padding: 0 10px;
+  width: 25%;
+  float: left;
+}
+
+.snsSectionContainer .facebookList__item a {
+  margin: 10px 0;
+  display: block;
+}
+
+.snsSectionContainer .thumbnail {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
+.snsSectionContainer .thumbnail img {
+  transition: all 0.4s ease;
+  border: 1px solid #e7e7e7;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.snsSectionContainer .readMore {
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 30px;
+  clear: both;
+}
+
+.snsSectionContainer .readMore a {
+  width: 135px;
+  padding: 10px 0;
+  line-height: 9px;
+  text-align: center;
+  color: #801494;
+  border: 1px solid #801494;
+  display: inline-block;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.snsSectionContainer .readMore a span {
+  padding: 15px;
+}
 
 /* footer */
 
