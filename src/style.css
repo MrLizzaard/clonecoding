@@ -234,19 +234,72 @@ nav .navbarSubShadow {
 }
 
 /* main */
-.mainContainer {
-  position: relative;
-  top: 60px;
-  width: 100%;
-  height: 1900px;
-  opacity: 0.75;
-}
-
 /* main Img */
+
+.mainImg img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: none;
+}
 
 /* search Block */
 
+.searchBlockContainer {
+  width: 1092px;
+  margin: 0 auto;
+}
+
+.searchBlock {
+  background-color: white;
+  border: 1px solid #ebebeb;
+  padding: 12px 30px;
+  border-radius: 100px;
+  width: 650px;
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+
+.searchBlock ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* service grid */
+
+.serviceGridContainer {
+  width: 1092px;
+  margin: 0 auto;
+}
+
+.serviceGrid {
+  margin-bottom: 30px;
+}
+
+.serviceGrid .grid1 {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+.serviceGrid .grid2 {
+  text-align: right;
+  padding: 0 6px;
+  width: 25%;
+  float: left;
+}
+
+.serviceGrid .grid3 {
+  text-align: right;
+  padding: 0 6px;
+  width: 25%;
+  float: left;
+}
+
+.serviceGrid .grid4 {
+  float: left;
+  padding: 0 6px;
+  margin-top: 30px;
+}
 
 /* sns section */
 
