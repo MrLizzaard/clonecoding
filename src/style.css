@@ -332,6 +332,10 @@ nav .navbarSubShadow {
 
 .snsSectionContainer .facebookList {
   margin: 0 -10px;
+  /* height: 556px; */
+  /* height: 1112px; */
+  /* height: 1668px; */
+  overflow: hidden;
 }
 
 .snsSectionContainer .facebookList::before,

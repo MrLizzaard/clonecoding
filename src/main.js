@@ -5,6 +5,8 @@ const subMenuBox = document.querySelector(".navbarSubShadow");
 const subMenuContainer = document.querySelector(".subMenuContainer");
 const sideMenuItem = document.querySelectorAll(".sidemenu__item");
 const navbar = document.querySelector("nav");
+const facebookList = document.querySelector(".facebookList");
+const facebookReadMore = document.querySelector(".readMoreBtn");
 
 // subMenu appear & disappear
 document.querySelectorAll(".item").forEach((item) => {
@@ -37,4 +39,10 @@ sideMenuItem.forEach((item) => {
   item.addEventListener("click", () => {
     item.classList.toggle("sidemenu__on");
   });
+});
+
+// sns section readmore
+
+facebookReadMore.addEventListener("click", () => {
+  console.log(278 * 2);
 });
