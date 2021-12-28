@@ -1,6 +1,7 @@
 /* global */
 * {
   box-sizing: border-box;
+  word-break: keep-all;
 }
 
 body {
@@ -236,9 +237,14 @@ nav .navbarSubShadow {
 /* main */
 /* main Img */
 
+.mainImg {
+  text-align: center;
+}
+
 .mainImg img {
   max-width: 100%;
   vertical-align: middle;
+  text-align: center;
   border: none;
 }
 
@@ -398,6 +404,86 @@ nav .navbarSubShadow {
 }
 
 /* footer */
+
+footer {
+  padding: 10px 0;
+  border-top: 1px solid #e8e8e8;
+  background-color: #464646;
+}
+
+.footerContainer {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 6px;
+  width: 1092px;
+  height: 52px;
+}
+
+.footerContainer::before,
+.footerContainer::after {
+  content: " ";
+  display: table;
+}
+
+.footerContainer .footerLogo {
+  float: left;
+  background-image: url(https://www.tire-tech.co.kr/assets/images/common/footer_logo.png);
+  width: 115px;
+  height: 14px;
+  margin-top: 3px;
+}
+
+.footerContainer .footerInfo {
+  float: left;
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.footerContainer .footerInfo span {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footerContainer .footerInfo a {
+  color: #8b8b8b;
+}
+
+.footerContainer .footerLink {
+  margin-top: 15px;
+  float: right;
+  text-align: right;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.footerContainer .footerLink .links {
+  clear: both;
+  display: inline-block;
+  color: #b3b3b3;
+}
+
+.footerContainer .footerLink .links a {
+  color: #b3b3b3;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footerContainer .footerLink .familySite {
+  display: inline-block;
+}
+
+.footerContainer .footerLink .familySite select {
+  padding: 0 10px;
+  vertical-align: middle;
+  margin: 0 3px;
+  max-width: 110px;
+
+  appearance: none;
+  background: url(https://www.tire-tech.co.kr/assets/images/common/icon_snb_arr.png) no-repeat scroll 100% center #fff;
+  text-indent: 0.01px;
+}
 
 /* media query */
 
