@@ -250,7 +250,7 @@ nav .navbarSubShadow {
 
 /* search Block */
 
-.searchBlockContainer {
+.container {
   width: 1092px;
   margin: 0 auto;
 }
@@ -272,13 +272,8 @@ nav .navbarSubShadow {
 
 /* service grid */
 
-.serviceGridContainer {
-  width: 1092px;
-  margin: 0 auto;
-}
-
-.serviceGridContainer::after,
-.serviceGridContainer::before {
+.container::after,
+.container::before {
   content: " ";
   clear: both;
   display: table;
@@ -322,7 +317,7 @@ nav .navbarSubShadow {
   margin-top: 50px;
 }
 
-.snsSectionContainer .snsSection {
+.snsSectionContainer .container {
   width: 1092px;
   margin: 0 auto;
 }
