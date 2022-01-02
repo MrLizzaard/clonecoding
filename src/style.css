@@ -160,7 +160,7 @@ nav .navbarSubShadow {
 }
 
 .side-collapse {
-  position: absolute;
+  position: fixed;
   background-color: #2d2d2d;
   width: 233px;
   height: 100vh;
@@ -323,11 +323,6 @@ nav .navbarSubShadow {
   margin-top: 50px;
 }
 
-.snsSectionContainer .container {
-  width: 1092px;
-  margin: 0 auto;
-}
-
 .snsSectionContainer .sectionTitle {
   color: #414042;
   font-size: 26px;
@@ -412,21 +407,7 @@ footer {
   background-color: #464646;
 }
 
-.footerContainer {
-  margin: 0 auto;
-  position: relative;
-  padding: 0 6px;
-  width: 1092px;
-  height: 52px;
-}
-
-.footerContainer::before,
-.footerContainer::after {
-  content: " ";
-  display: table;
-}
-
-.footerContainer .footerLogo {
+.footerLogo {
   float: left;
   background-image: url(https://www.tire-tech.co.kr/assets/images/common/footer_logo.png);
   width: 115px;
@@ -434,7 +415,7 @@ footer {
   margin-top: 3px;
 }
 
-.footerContainer .footerInfo {
+.footerInfo {
   float: left;
   margin-left: 20px;
   font-weight: 200;
@@ -442,16 +423,16 @@ footer {
   color: #b3b3b3;
 }
 
-.footerContainer .footerInfo span {
+.footerInfo span {
   display: inline-block;
   padding-right: 5px;
 }
 
-.footerContainer .footerInfo a {
+.footerInfo a {
   color: #8b8b8b;
 }
 
-.footerContainer .footerLink {
+.footerLink {
   margin-top: 15px;
   float: right;
   text-align: right;
@@ -459,23 +440,23 @@ footer {
   font-size: 12px;
 }
 
-.footerContainer .footerLink .links {
+.footerLink .links {
   clear: both;
   display: inline-block;
   color: #b3b3b3;
 }
 
-.footerContainer .footerLink .links a {
+.footerLink .links a {
   color: #b3b3b3;
   display: inline-block;
   padding-right: 5px;
 }
 
-.footerContainer .footerLink .familySite {
+.footerLink .familySite {
   display: inline-block;
 }
 
-.footerContainer .footerLink .familySite select {
+.footerLink .familySite select {
   padding: 0 10px;
   vertical-align: middle;
   margin: 0 3px;
@@ -487,13 +468,9 @@ footer {
 }
 
 /* media query */
-@media (max-width: 0px) {
-}
 
-@media (max-width: 768px) {
-}
-
-@media (max-width: 992px) {
+.px968 {
+  display: none;
 }
 
 @media (max-width: 1169px) {
@@ -523,5 +500,112 @@ footer {
 
   .container {
     width: 952px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 768px;
+  }
+
+  .snsSectionContainer .facebookList__item {
+    width: 33.33333%;
+  }
+
+  .footerLink .links {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .px968 {
+    display: block;
+  }
+
+  .px1170 {
+    display: none;
+  }
+
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+
+  /* searchBlock */
+
+  .searchBlock {
+    width: 100%;
+    padding: 12px 30px;
+    top: -40px;
+  }
+
+  .searchBlock ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .searchBlock ul li {
+    text-align: center;
+  }
+
+  .searchBlock img {
+    height: 50px;
+  }
+
+  /* serviceGrid */
+
+  .serviceGrid .grid1 {
+    margin-bottom: 17px;
+  }
+
+  .gridCol {
+    width: 50%;
+    float: left;
+  }
+
+  .serviceGrid .grid2 {
+    margin-bottom: 17px;
+    width: 100%;
+    text-align: right;
+  }
+
+  .serviceGrid .grid3 {
+    width: 100%;
+  }
+
+  /* snsSection */
+
+  .snsSectionContainer .facebookList__item {
+    width: 50%;
+  }
+
+  /* footer */
+
+  footer .container {
+    position: relative;
+  }
+
+  .footerLogo {
+    float: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footerInfo {
+    float: none;
+    margin-bottom: 25px;
+  }
+
+  .footerLink {
+    text-align: right;
+    float: none;
+  }
+
+  .footerLink .familySite {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
